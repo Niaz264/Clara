@@ -1,2 +1,2 @@
-worker: python3 -m AstrakoBot
+worker: python3 -m SaitamaRobot
  ps:scale worker=1
