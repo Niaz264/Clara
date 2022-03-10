@@ -30,7 +30,7 @@ class Config(object):
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgresql://postgres:z61TTTIuoNNgqdldZ8Ge@containers-us-west-26.railway.app:6587/railway"  # needed for any database modules # its "URI" and not "URL" as heroku and similar ones only accept it as such
     LOAD = []
-    NO_LOAD = 
+    NO_LOAD = []
     WEBHOOK = False
     INFOPIC = True
     URL = None
