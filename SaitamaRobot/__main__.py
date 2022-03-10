@@ -95,7 +95,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/0576731c890d2cf9cecce.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/db8f21f9e971782f54117.jpg"
 
 DONATE_STRING = """ Won't be necessary as of now."""
 
@@ -218,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add Clara to your group",
+                                text="☑️ Add Minaki to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
@@ -230,20 +230,20 @@ def start(update: Update, context: CallbackContext):
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="🔔 Updates Channel",
-                                url="https://t.me/MissClaraChannel",
+                                text="🔔 Owner",
+                                url="https://t.me/ribochan",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                                text="🗄 Source Code",
+                                url="https://xnxx.com",
                             )
                         ],
                         [
                             InlineKeyboardButton(
                                 text="📕 Help & Commands",
-                                url="http://t.me/MissClaraBot?start=help",
+                                url="http://t.me/minakirobot1?start=help",
                             )
                         ],
                     ]
