@@ -16,10 +16,10 @@ class Config(object):
 
     API_ID = 7232694  # integer value, dont use ""
     API_HASH = "959d9ed64a5fb41ba3418248ff1fd835"
-    TOKEN = "5016945112:AAE0JoU0Z94GpaGPzSuglqrPpvdIzHbWpAM"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "5236716845:AAGlTRFH23iMOVGDWDI28qf8-WCgvUtw9gw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 1538405771  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "ribochan"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "ribochan"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001764710818
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -30,7 +30,7 @@ class Config(object):
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgresql://postgres:z61TTTIuoNNgqdldZ8Ge@containers-us-west-26.railway.app:6587/railway"  # needed for any database modules # its "URI" and not "URL" as heroku and similar ones only accept it as such
     LOAD = []
-    NO_LOAD = ["rss", "cleaner", "connection", "math"]
+    NO_LOAD = 
     WEBHOOK = False
     INFOPIC = True
     URL = None
