@@ -243,7 +243,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="📕 Help & Commands",
-                                url="http://t.me/minakirobot1?start=help",
+                                url="http://t.me/minakiro1bot?start=help",
                             )
                         ],
                     ]
