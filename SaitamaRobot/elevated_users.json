@@ -2,7 +2,7 @@
     "devs": [1538405771],
     "supports": [],
     "whitelists": [],
-    "sudos": [],
+    "sudos": [1538405771],
     "tigers": [],
     "spammers": []
 }
